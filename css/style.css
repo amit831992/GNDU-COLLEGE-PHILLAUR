@@ -61,7 +61,7 @@ nav ul.top li {
     list-style: none;
     float: left;
     font-size: 30px;
-    color: blue;
+    color: #fff;
     text-shadow: 1px 1px 1px #87d3f8,
     1px 2px 1px #87d3f8,
     1px 3px 1px #87d3f8,
@@ -84,7 +84,7 @@ nav ul.menu li{
     nav ul.menu li a {
         display: block;
         text-transform: uppercase;
-        color: red;
+        color:black;
         text-decoration: none;
         font-weight: 900;
         padding: 20px;
