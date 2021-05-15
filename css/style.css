@@ -112,6 +112,8 @@ display: none;
     }
 
     .map {
+        width: "400px"; 
+        height: "300px";
        text-align: left;
     }
     .mapaddress {
@@ -161,7 +163,7 @@ display: none;
     }
     
     .messagehead {
-            font-size: 55px;
+            font-size: 50px;
         text-transform: uppercase;
         color: blue;
         text-shadow: 2px 2px 2px #ff0000;
@@ -232,10 +234,21 @@ button {
       display: block;
       width: 100%;
       margin: 0;
-      text-overflow: inherit;
   }
-  .form {
-      display: block;
+  .form input{
       width: 100%;
+      margin: 0;
+
   }
+  .form textarea{
+    width: 100%;
+    margin: 0;
+
+}
+hi.messagehead {
+    font-size: auto;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
 }
