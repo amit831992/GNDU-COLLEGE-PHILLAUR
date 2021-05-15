@@ -99,6 +99,7 @@ nav ul.menu li{
     ul.menu li.ddm {
 display: none;
     }
+    /* ############# Footer Settings ################### */
     footer {
         background-image: linear-gradient(#FF1493, #AFEEEE);
         margin: 5px;
@@ -139,6 +140,14 @@ display: none;
         height: 200px;
         border-radius: 20px;
     }
+    .rights {
+        display: block;
+        text-align: left;
+        text-transform: none;
+        margin-top: 20px;
+        color: red;
+        font-weight: 900;
+    }
   
    
  
@@ -166,6 +175,7 @@ div.box {
     padding: 20px;
     margin: 20px;
     max-height: 500px;
+    overflow-wrap: normal;
 
 }
 p {
@@ -182,6 +192,7 @@ button {
     border-radius: 20px;
     padding: 10px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 
@@ -214,9 +225,17 @@ button {
             text-align: left;
 
         }
+        .box {
+            text-overflow: ellipsis;
+        }
   .col-6 {
+      display: block;
       width: 100%;
       margin: 0;
       text-overflow: inherit;
+  }
+  .form {
+      display: block;
+      width: 100%;
   }
 }
