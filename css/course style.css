@@ -102,112 +102,95 @@ display: none;
     /* ############# Footer Settings ################### */
     footer {
         background-image: linear-gradient(#FF1493, #AFEEEE);
-        margin: 5px;
+        /* margin: 5px;
         padding: 50px;
         text-align: center;
         text-transform: uppercase;
-        line-height: 3px;
-        
-    
-    }
-
-    .map {
-       text-align: left;
-    }
-    div.map iframe {
-        width: 500px;
-        height: 350px;
-    }
-    .mapaddress {
-        text-align: left;
-    }
-    .contacthead {
-        display: block;
-        font-size: 25px;
-        font-weight: 900;
-        text-align: left;
-        color: #fff;
-        margin-bottom: 20px;
-        
-    }
-    form label {
-        font-weight: 900;
-        margin-top: 20px;
-    }
-    .form input {
-        width: 400px;
-        height: 35px;
-        border-radius: 5px;
-    }
-    textarea {
-        width: 400px;
-        height: 200px;
-        border-radius: 20px;
-    }
-    .rights {
-        display: block;
-        text-align: left;
-        text-transform: none;
-        margin-top: 20px;
-        color: red;
-        font-weight: 900;
+        line-height: 3px; */
     }
   
+      
+
+    .rights {
+        display: block;
+        text-align: center;
+        text-transform: none;
+        color: red;
+        font-weight: 900;
+        padding-top: 20px;
+    }
+
+  
+  footer h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  footer ul {
+      
+      list-style: none;
+      text-align: center;   
+      width: 100%;   
+  }
+  footer ul li {
+      display: block;
+      text-decoration: none;
+      float: left;
+      margin-left: 60px;
+      margin-right: 60px;
+   
+  }
+  .icons {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+ 
+ 
+ 
+
    
  
 /* ################# Edit Part############## */
 
     /* ############### Body Design ############# */
-    marquee a {
-        text-decoration: none;
-        font-size: 20px;
-        color: green;
-        font-weight: 900;
-        font-family: Georgia, Times, 'Times New Roman', serif;
-        
-    }
- 
-    .collegepic {
-        height: 200px;
-        width: 100%;   
-    }
-    
-    .messagehead {
-        text-transform: uppercase;
-        font-size: 60px;
-        color: blue;
-        text-shadow: 2px 2px 2px #ff0000;
-        text-align: center;
-        margin-bottom: 0;
-        }
-div.box {
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
-    0 2px 3px 0 rgba(0, 0, 0, .1);
-    padding: 20px;
-    margin: 20px;
-    max-height: 500px;
-    overflow-wrap: normal;
+    div.course-head {
+            text-transform: uppercase;
+            font-size: 45px;
+            color: blue;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px #ff0000;
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 20px;
+   }
 
-}
-p {
-    text-align: justify;
-}
-
-button:hover {
-    background-color: blue;
-    color: #fff;
-}
-button {
-    background-color: red;
-    color: #fff;
-    border-radius: 20px;
-    padding: 10px;
+div.buttons button {
+    background-color: #893F65;
+    font-size: 25px;
     font-weight: 900;
-    cursor: pointer;
-}
+    border-top-left-radius: 3px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 3px;
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    margin: 35px;
+    text-align: center;
 
+}
+div.buttons {
+    display: block;
+    text-align: center;
+}
+div.buttons button:hover {
+    background-color: darkred;
+    font-weight: 900;
+}
 
     /* ################# Mobile ################ */
     @media screen and (max-width: 720px) {
@@ -286,5 +269,22 @@ div.map iframe {
     display: flex;
     width: 100%;
     margin: 0;
+}
+.icons {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+footer ul li {
+    display: block;
+   margin: 20px;
+   padding: 30px;
+
+}
+/* ########## Body Edit ############## */
+div.course-head {
+    display: block;
+    width: 100%;
 }
 }
