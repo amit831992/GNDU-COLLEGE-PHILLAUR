@@ -1,0 +1,268 @@
+/* ############## Default setings ################# */
+nav, Header, footer {
+    display: block;
+}
+body {
+    line-height: 1;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.row {
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+align-items: center;
+line-height: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+* {
+    box-sizing: border-box;
+}
+
+/* ################## Nave bar ################# */
+nav {
+    width: 100%;
+    margin: 0;
+    }
+nav ul.menu div {
+    margin-left: 500px;
+}
+nav ul {
+     overflow: hidden;
+    margin: 0;
+padding: 0;
+}
+.topbackground {
+    background-image: linear-gradient(#FF1493, #AFEEEE);
+  }
+nav ul.top li.image img {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul.top li {
+    list-style: none;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #87d3f8,
+    1px 2px 1px #87d3f8,
+    1px 3px 1px #87d3f8,
+    1px 4px 1px #87d3f8,
+    1px 5px 1px #87d3f8,
+    1px 6px 1px #87d3f8,
+    1px 7px 1px #87d3f8,
+    1px 10px 6px rgba(16,16,16,0.4),
+    1px 12px 14px rgba(16,16,16,0.2),
+    1px 15px 17px rgba(16,16,16,0.2),
+    1px 17px 19px rgba(16,16,16,0.4);
+    font-weight: 800;
+}
+nav ul.menu li{
+    list-style: none;
+    float: left;
+    padding: 5px;
+   
+}
+    nav ul.menu li a {
+        display: block;
+        text-transform: uppercase;
+        color:black;
+        text-decoration: none;
+        font-weight: 900;
+        padding: 20px;
+        min-height: 16px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    nav ul.menu li a:hover {
+        background-color: blue;
+        color: #fff;
+    }
+    ul.menu li.ddm {
+display: none;
+    }
+    /* ############# Footer Settings ################### */
+    footer {
+        background-image: linear-gradient(#FF1493, #AFEEEE);
+        /* margin: 5px;
+        padding: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 3px; */
+    }
+  
+      
+
+    .rights {
+        display: block;
+        text-align: center;
+        text-transform: none;
+        color: red;
+        font-weight: 900;
+        padding-top: 20px;
+    }
+
+  
+  footer h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  footer ul {
+      
+      list-style: none;
+      text-align: center;   
+      width: 100%;   
+  }
+  footer ul li {
+      display: block;
+      text-decoration: none;
+      float: left;
+      margin-left: 60px;
+      margin-right: 60px;
+   
+  }
+  .icons {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+ 
+ 
+ 
+
+   
+ 
+/* ################# Edit Part############## */
+
+    /* ############### Body Design ############# */
+    div.Contact {
+            text-transform: uppercase;
+            font-size: 45px;
+            color: blue;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px #ff0000;
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 20px;
+   }
+
+
+
+    /* ################# Mobile ################ */
+    @media screen and (max-width: 720px) {
+        ul.menu li:not(:nth-child(1))
+        {
+            display: none;
+        }
+        ul.menu li.ddm {
+            display: block;
+            float: right;
+        }
+        ul.menu.responsive li.ddm {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+        }
+        
+        ul.menu.responsive {
+            position: relative;
+        }
+        ul.menu.responsive li {
+            display: inline;
+            float: none;
+        }       
+        ul.menu.responsive li a {
+            display: block;
+            text-align: left;
+
+        }
+      
+        ul.top li h1 {
+            text-align: left;
+            margin-left: 20px;
+        }
+        .box {
+            text-overflow: ellipsis;
+        }
+    .messagehead {
+            font-size: 40px;
+            display: flex;
+            width: 100%;
+            margin: 0;
+            margin-top: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        div.box h1 {
+            line-height: 35px;
+        }
+  .col-6 {
+      display: block;
+      width: 100%;
+      margin: 0;
+  }
+  .form input{
+      display: flex;
+      width: 100%;
+      margin: 0;
+
+  }
+  .form textarea{
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+div.mapaddress h2 {
+    display: flex;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+div.map iframe {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.icons {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+footer ul li {
+    display: block;
+   margin: 20px;
+   padding: 30px;
+
+}
+/* ########## Body Edit ############## */
+div.course-head {
+    display: block;
+    width: 100%;
+}
+}
