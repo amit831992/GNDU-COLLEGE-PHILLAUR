@@ -167,8 +167,68 @@ display: none;
             margin-bottom: 0;
             margin-top: 20px;
    }
-
-
+   div.contact-page {
+       display: grid;
+       grid-template-columns: repeat(2, 300px);
+       column-gap: 10px;
+       justify-items: center;
+       align-items: center;
+       margin-bottom: 30px;
+       margin-top: 40px;
+       grid-column: auto;
+       justify-content: space-around;
+  
+    }
+.form {
+    background: coral;
+    padding: 25px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    line-height: 25px;
+}
+.address {
+    background: cyan;
+    padding: 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    height: 550px;
+    width: 450px;
+}
+form label {
+    font-weight: 900;
+    /* margin-top: 20px; */
+}
+.form input {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: blue;
+    color: #fff;
+}
+button {
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+div.form lable h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+ 
+}
 
     /* ################# Mobile ################ */
     @media screen and (max-width: 720px) {
@@ -243,11 +303,6 @@ div.mapaddress h2 {
     line-height: 30px;
     text-align: center;
 }
-div.map iframe {
-    display: flex;
-    width: 100%;
-    margin: 0;
-}
 .icons {
     display: flex;
     margin: 0;
@@ -263,6 +318,24 @@ footer ul li {
 /* ########## Body Edit ############## */
 div.course-head {
     display: block;
+    width: 100%;
+}
+div.contact-page {
+    display: block;
+  width: 100%;
+  margin: 10px;
+ }
+ div.form{
+     margin-top: 10px;
+ }
+ iframe {
+     display: flex;
+     width: 100%;
+     margin: 0;
+
+ }
+ .address {
+  display: block;
     width: 100%;
 }
 }
