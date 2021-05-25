@@ -167,6 +167,37 @@ display: none;
             margin-bottom: 0;
             margin-top: 20px;
    }
+   div.notice {
+       display: grid;
+       grid-template-columns: repeat(1, 80%);
+       grid-template-rows: 750px;
+       column-gap: 10px;
+       justify-items: stretch;
+       align-items: stretch;
+       margin-bottom: 30px;
+       margin-top: 40px;
+       grid-column: auto;
+       justify-content: space-around;
+       
+
+   }
+.notice ul{
+    background: lightgray;
+    font-size: 25px;
+    list-style: none;
+    text-transform: capitalize;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-color: #000;
+    border: double;
+    border-color: red;
+    border-style: solid;
+}
+.notice ul li a {
+    text-decoration: none;
+    color: green;
+    font-weight: 900;
+}
 
 
 
