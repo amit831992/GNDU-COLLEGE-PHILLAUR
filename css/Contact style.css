@@ -323,10 +323,9 @@ div.course-head {
 div.contact-page {
     display: block;
   width: 100%;
-  margin: 10px;
  }
  div.form{
-     margin-top: 10px;
+     margin: 0;
  }
  iframe {
      display: flex;
@@ -334,8 +333,9 @@ div.contact-page {
      margin: 0;
 
  }
- .address {
-  display: block;
+ div.address {
     width: 100%;
+    margin: 0;
+    
 }
 }
