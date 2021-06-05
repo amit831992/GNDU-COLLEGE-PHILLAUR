@@ -311,4 +311,12 @@ div.map iframe {
     width: 100%;
     margin: 0;
 }
+.rights {
+    display: block;
+   width: 100%;
+   font-size: 10px;
+}
+   
+    
+    
 }
