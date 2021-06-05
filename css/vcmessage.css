@@ -157,59 +157,43 @@ display: none;
 /* ################# Edit Part############## */
 
     /* ############### Body Design ############# */
-    div.Contact {
-            text-transform: uppercase;
-            font-size: 45px;
-            color: blue;
-            font-weight: 900;
-            text-shadow: 2px 2px 2px #ff0000;
-            text-align: center;
-            margin-bottom: 0;
-            padding-top: 20px;
-   }
-   div.page {
-       padding: 0;
-       margin: 0;
-       background-color: rgba(212, 135, 171, .3);
+   
+.message{
+    background-color: rgba(212, 135, 171, .3);
         background-image: radial-gradient(red 1px, transparent 1px);
         background-size: 15px 15px;
-   }
-
-   div.telephone {
-       display: grid;
-       grid-template-columns: 200px 500px;
-       grid-template-rows: repeat(16, 150px);
-       justify-content: center;
-       margin: 0;
-       column-gap: 5px;
-       row-gap: 20px;
-       padding-top: 20px;
-       padding-bottom: 20px;
-       /* justify-items: center; */
-   }
-div.img img {
-    border-radius: 20px;
-    height: 130px;
-    width: 120px;
+    padding: 20px;
+    
 }
-Div.txt h1 {
-    margin: 0;
+div.head{
+    font-size: 50px;
+    color: red;
+    font-weight: 900;
+    text-align: center;
 }
-div.txt p{
-font-size: 20px;
-font-weight: 900;
-text-transform: capitalize;
-}
-.txt {
-    background: linear-gradient(#14ff4f, #dbeeaf);
-    padding: 10px;
+div.img{
+    display: block;
     border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
-.img {
-    background: linear-gradient(#fdec00, #ece6b0);
-    border-radius: 10px;
-  text-align: center;
-  padding-top: 10px;
+div.name h1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+}
+div.message-pera{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0;
+    border: solid;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+    background: rgba(0,0,0,0.6);
 }
 
     /* ################# Mobile ################ */
@@ -307,17 +291,9 @@ div.course-head {
     display: block;
     width: 100%;
 }
-div.telephone {
-    display: block;
-    width: auto;
-    text-align: center;
-    margin-bottom: 10px;
-}
-div.txt {
-    display: block;
-    width: auto;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+div.img img{
+    display: flex;
+    width: 100%;
+    margin: 5px;
 }
 }

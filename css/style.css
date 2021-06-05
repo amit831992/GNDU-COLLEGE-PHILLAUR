@@ -207,6 +207,30 @@ button {
     font-weight: 900;
     cursor: pointer;
 }
+.functionbutton{
+    position: relative;
+    width: 100%;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.btn button{
+    font-size: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    background-color: #87d3f8;
+    color: #ff0000;
+}
+.btn button:hover{
+    background: #ff0000;
+    color: #87d3f8;
+}
+
 
 
     /* ################# Mobile ################ */

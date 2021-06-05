@@ -1,0 +1,27 @@
+
+ 
+/* ################# Edit Part############## */
+
+    /* ############### Body Design ############# */
+  
+div.form{
+    text-align: center;
+}
+div.form iframe{
+    width: 650px;
+    height: 1700px;
+}
+
+
+    /* ################# Mobile ################ */
+    @media screen and (max-width: 720px) {
+        ul.menu li:not(:nth-child(1))
+        {
+            display: none;
+        }
+
+      div.form iframe{
+    display: flex;
+    width: 100%;
+} 
+}
